@@ -5,8 +5,8 @@
 #include <string.h>
 #include <stdbool.h>
 
-#define zeroX 24
-#define zeroY 24
+#define zeroX 0
+#define zeroY 0
 #define linemax 1024
 
 FILE *fINt;
