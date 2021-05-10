@@ -33,7 +33,7 @@ If you want to use the output for the next tool, paste it into a plain txt file.
 mmframes
 --------
 
-mmframes takes a project file created by Tilificator and a txt file with a list of offsets created by OffsetFinder. It outputs two text files with LUTs for each meta sprite frame, for sprite positions and tile numbers respectively. The first entry in each LUT is the number of sprites in the current frame.
+mmframes takes a project file created by Tilificator and a txt file with a list of offsets created by OffsetFinder. It outputs two text files which contain a LUT for each meta sprite frame, with sprite position data and tile numbers respectively. The first entry in each LUT is the number of sprites in the current frame.
 
 If you don't want the upper left corner of the frame as your reference point, simply change the definitions of *zeroX* and *zeroY* to values that suit your needs better.
 
