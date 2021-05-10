@@ -15,7 +15,7 @@ I haven't developed a solution for the flipped sprites, as in my experience the 
 mixbpls
 -------
 
-mixbpls shuffles the bitplanes in the raw tile data output by Tilificator, so they actually match the format expected by the SMS. As a bonus, you can exclude empty bitplanes if your graphics data only use 1, 2 or 3.
+mixbpls shuffles the bitplanes in the raw tile data output from Tilificator, so they actually match the format expected by the SMS. As a bonus, you can exclude empty bitplanes if your graphics data only use 1, 2 or 3.
 
 Usage: mixbpls inputfile.bin outputfile.bin [1|2|3|4]
 
