@@ -9,7 +9,7 @@ FrameYSize = 48
 
 our_dir = os.path.dirname(__file__)
 
-im = Image.open(os.path.join(our_dir, "assets/spritesheet_sunny_special_right.png")).convert("RGB")
+im = Image.open(os.path.join(our_dir, "spritesheet.png")).convert("RGB")
 SheetXSize, SheetYSize = im.size
 
 SheetY = 0
